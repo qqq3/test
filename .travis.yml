@@ -1,5 +1,5 @@
 language: android
-jdk: openjdk7
+jdk: joraclejdk8
 sudo: false
 
 android:
