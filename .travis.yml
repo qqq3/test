@@ -1,7 +1,7 @@
 language: android
 jdk: oraclejdk8
 os: linux
-sudo: false
+sudo: required
 
 android:
   components:
@@ -13,9 +13,8 @@ android:
     - android-25
     - extra-android-m2repository
 #    - sys-img-armeabi-v7a-android-22
-
-license:
-  - android-sdk-license-*
+  license:
+    - 'android-sdk-license-.+'
 
 #before_script:
 #  - echo no | android create avd --force -n test -t android-22 --abi armeabi-v7a
